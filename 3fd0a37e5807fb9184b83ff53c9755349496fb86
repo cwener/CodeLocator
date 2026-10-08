@@ -1,0 +1,43 @@
+CodeLocatorPlugin/src/main/resources/META-INF/version
+  8004cfa3d56fc5b6 1,3
+CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/utils/AutoUpdateUtils.java
+  8004cfa3d56fc5b6 16-18,123-126
+CodeLocatorPlugin/src/main/resources/META-INF/version_en
+  8004cfa3d56fc5b6 1,3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8-ntes.9",
+  "base_commit_sha": "3fd0a37e5807fb9184b83ff53c9755349496fb86",
+  "prompts": {
+    "8004cfa3d56fc5b6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4f42b387-d6cd-426a-ab3b-b3e62762fdea",
+        "model": "deepseek-flash"
+      },
+      "human_author": "chengwen",
+      "messages": [],
+      "total_additions": 11,
+      "total_deletions": 4,
+      "accepted_lines": 11,
+      "overriden_lines": 0,
+      "per_file_stats": {
+        "CodeLocatorPlugin/src/main/resources/META-INF/version": {
+          "additions": 2,
+          "deletions": 2,
+          "accepted_lines": 2
+        },
+        "CodeLocatorPlugin/src/main/resources/META-INF/version_en": {
+          "additions": 2,
+          "deletions": 2,
+          "accepted_lines": 2
+        },
+        "CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/utils/AutoUpdateUtils.java": {
+          "additions": 7,
+          "accepted_lines": 7
+        }
+      }
+    }
+  }
+}

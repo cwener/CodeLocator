@@ -1,0 +1,1411 @@
+CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/panels/ViewInfoTablePanel.kt
+  8004cfa3d56fc5b6 369
+CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/action/NewWindowAction.kt
+  8004cfa3d56fc5b6 62
+CodeLocatorApp/CodeLocatorModel/build.gradle
+  8004cfa3d56fc5b6 3-5,13-17
+CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/action/AddSourceCodeAction.kt
+  8004cfa3d56fc5b6 421,427
+CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/processor/ViewFlagProcessor.kt
+  8004cfa3d56fc5b6 79,88,96
+CodeLocatorPlugin/gradle.properties
+  8004cfa3d56fc5b6 2-5
+CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/utils/OSHelper.kt
+  8004cfa3d56fc5b6 25,67
+CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/dialog/ShowViewClassInfoDialog.kt
+  8004cfa3d56fc5b6 70
+CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/action/FindViewAction.kt
+  8004cfa3d56fc5b6 76
+CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/listener/CodeLocatorStartupActivity.java
+  8004cfa3d56fc5b6 210
+CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/dialog/EditFileContentDialog.kt
+  8004cfa3d56fc5b6 119,125
+CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/action/SearchInWebAction.kt
+  8004cfa3d56fc5b6 141
+CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/dialog/ShowIntentInfoDialog.kt
+  8004cfa3d56fc5b6 68
+CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/action/AddExtraFieldAction.kt
+  8004cfa3d56fc5b6 42
+CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/processor/LayoutProcessor.kt
+  8004cfa3d56fc5b6 48,53
+CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/device/DeviceManager.java
+  8004cfa3d56fc5b6 349-350
+CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/listener/CodeLocatorApplicationInitializedListener.java
+  8004cfa3d56fc5b6 18,23,37-39,135-136
+CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/action/InstallApkAction.kt
+  8004cfa3d56fc5b6 40
+CodeLocatorPlugin/build.gradle.kts
+  8004cfa3d56fc5b6 8-9,13,18-20,23-28,33-34,43-50,53-54,56-60,65-70,72-77,79-84,87-93,102-103,113
+CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/action/FindClickListenerAction.kt
+  8004cfa3d56fc5b6 79
+CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/utils/ImageUtils.kt
+  8004cfa3d56fc5b6 40-42
+CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/parser/CodeLocatorViewNodeDecoder.kt
+  8004cfa3d56fc5b6 62
+CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/action/FindTouchListenerAction.kt
+  8004cfa3d56fc5b6 79
+CodeLocatorPlugin/.gitignore
+  8004cfa3d56fc5b6 31-34
+CodeLocatorPlugin/settings.gradle.kts
+  8004cfa3d56fc5b6 5
+CodeLocatorPlugin/gradle/wrapper/gradle-wrapper.properties
+  8004cfa3d56fc5b6 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8-ntes.9",
+  "base_commit_sha": "cd711be38015d75d42b08c9c8fb51a1cd916be41",
+  "prompts": {
+    "8004cfa3d56fc5b6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4f42b387-d6cd-426a-ab3b-b3e62762fdea",
+        "model": "deepseek-flash"
+      },
+      "human_author": "chengwen",
+      "messages": [],
+      "total_additions": 6266,
+      "total_deletions": 288,
+      "accepted_lines": 6119,
+      "overriden_lines": 0,
+      "per_file_stats": {
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.commons.logging-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.coverage.agent-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.opentelemetry-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-fleet.kernel-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 15,
+          "accepted_lines": 15
+        },
+        "CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/listener/CodeLocatorApplicationInitializedListener.java": {
+          "additions": 7,
+          "deletions": 3,
+          "accepted_lines": 7
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.vcs.shared-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 26,
+          "accepted_lines": 26
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.debugger-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 24,
+          "accepted_lines": 24
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.jvm.analysis.quickFix-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 17,
+          "accepted_lines": 17
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.indexing-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 18,
+          "accepted_lines": 18
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.langInjection-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 31,
+          "accepted_lines": 31
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.todo.backend-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 24,
+          "accepted_lines": 24
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.vcs.dvcs.impl.shared-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 23,
+          "accepted_lines": 23
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.fastutil-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.opentelemetry.semconv-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.java.structureView-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 16,
+          "accepted_lines": 16
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.jspecify-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.asm-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/action/AddExtraFieldAction.kt": {
+          "additions": 1,
+          "deletions": 1,
+          "accepted_lines": 1
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.feedback-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 25,
+          "accepted_lines": 25
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.jackson3.databind-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 14,
+          "accepted_lines": 14
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-fleet.rpc.server-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 20,
+          "accepted_lines": 20
+        },
+        "CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/processor/ViewFlagProcessor.kt": {
+          "additions": 3,
+          "deletions": 3,
+          "accepted_lines": 3
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.kotlinx.serialization.json-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 13,
+          "accepted_lines": 13
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.velocity-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.kryo5-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.builtInServer-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 17,
+          "accepted_lines": 17
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.java.compiler.impl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 24,
+          "accepted_lines": 24
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.xml.syntax-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.gitignore": {
+          "additions": 4,
+          "deletions": 1,
+          "accepted_lines": 4
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.java.langInjection-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 22,
+          "accepted_lines": 22
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.vcs.log.graph.impl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 15,
+          "accepted_lines": 15
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.vcs-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 26,
+          "accepted_lines": 26
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.java.ui-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 25,
+          "accepted_lines": 25
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.core.ui-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 15,
+          "accepted_lines": 15
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledPlugin-com.android.tools.gradle.dcl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 18,
+          "accepted_lines": 18
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.jackson-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 13,
+          "accepted_lines": 13
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.java.backend-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 42,
+          "accepted_lines": 42
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.compose.runtime.desktop-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 13,
+          "accepted_lines": 13
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.jewel.ui-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 16,
+          "accepted_lines": 16
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.lucene.common-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.jsp-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 14,
+          "accepted_lines": 14
+        },
+        "CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/action/AddSourceCodeAction.kt": {
+          "additions": 2,
+          "deletions": 2,
+          "accepted_lines": 2
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.projectModel-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 13,
+          "accepted_lines": 13
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.java.uast-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 17,
+          "accepted_lines": 17
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.testIntegration.ui-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 15,
+          "accepted_lines": 15
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.java.aetherDependencyResolver-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 17,
+          "accepted_lines": 17
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.analysis-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 20,
+          "accepted_lines": 20
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.settingsSync.core-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 43,
+          "accepted_lines": 43
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.kotlinx.coroutines.slf4j-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledPlugin-org.toml.lang-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 17,
+          "accepted_lines": 17
+        },
+        "CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/utils/OSHelper.kt": {
+          "additions": 2,
+          "deletions": 7,
+          "accepted_lines": 2
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.debugger.impl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 49,
+          "accepted_lines": 49
+        },
+        "CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/utils/DataUtils.java": {
+          "deletions": 151
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-fleet.rhizomedb.transactor.rebase-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 25,
+          "accepted_lines": 25
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.jewel.markdown.ideLafBridgeStyling-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 25,
+          "accepted_lines": 25
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.jackson.annotations-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.jcip-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/gradle/wrapper/gradle-wrapper.properties": {
+          "additions": 1,
+          "deletions": 1,
+          "accepted_lines": 1
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledPlugin-JUnit-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 30,
+          "accepted_lines": 30
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.lz4-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledPlugin-Coverage-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 23,
+          "accepted_lines": 23
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.ktor.io-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 13,
+          "accepted_lines": 13
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.markdown.utils-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 17,
+          "accepted_lines": 17
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.debugger.impl.shared-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 35,
+          "accepted_lines": 35
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.lang.impl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 85,
+          "accepted_lines": 85
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.testIntegration-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 13,
+          "accepted_lines": 13
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.cli.parser-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.scriptDebugger.protocolReaderRuntime-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 18,
+          "accepted_lines": 18
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.spellchecker.xml-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 21,
+          "accepted_lines": 21
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.statistics-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 36,
+          "accepted_lines": 36
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.experiment-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 18,
+          "accepted_lines": 18
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-fleet.multiplatform.shims-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 13,
+          "accepted_lines": 13
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.netty.codec.compression-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 13,
+          "accepted_lines": 13
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.scriptDebugger.ui-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 28,
+          "accepted_lines": 28
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledPlugin-Git4Idea-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 18,
+          "accepted_lines": 18
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.kotlinx.collections.immutable-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorApp/CodeLocatorModel/build.gradle": {
+          "additions": 8,
+          "deletions": 4,
+          "accepted_lines": 8
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.util.diff-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/processor/LayoutProcessor.kt": {
+          "additions": 2,
+          "deletions": 2,
+          "accepted_lines": 2
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.stream-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-fleet.reporting.api-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 13,
+          "accepted_lines": 13
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.core.impl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 24,
+          "accepted_lines": 24
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-fleet.util.serialization-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 16,
+          "accepted_lines": 16
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.kotlinx.serialization.protobuf-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.kotlinx.coroutines.core-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.lvcs.impl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 32,
+          "accepted_lines": 32
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.java.typeMigration-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 19,
+          "accepted_lines": 19
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.java.unscramble-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 16,
+          "accepted_lines": 16
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.rd.framework-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.execution.impl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 51,
+          "accepted_lines": 51
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.diagnostic.telemetry-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.xml.ui.common-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 29,
+          "accepted_lines": 29
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.kotlinx.coroutines.guava-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 14,
+          "accepted_lines": 14
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.vcs.impl.lang-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 33,
+          "accepted_lines": 33
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/localIde-AI-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.xml.analysis.impl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 31,
+          "accepted_lines": 31
+        },
+        "CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/utils/ImageUtils.kt": {
+          "additions": 3,
+          "deletions": 4,
+          "accepted_lines": 3
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.properties.backend.psi-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 15,
+          "accepted_lines": 15
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.ide.impl.wsl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 22,
+          "accepted_lines": 22
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledPlugin-com.intellij.groovy.scripting-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 16,
+          "accepted_lines": 16
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.rd.core-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.remote.core-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 18,
+          "accepted_lines": 18
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.gson-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.xml.parser-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 17,
+          "accepted_lines": 17
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.collaborationTools-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 36,
+          "accepted_lines": 36
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.todo-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 36,
+          "accepted_lines": 36
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.core-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 16,
+          "accepted_lines": 16
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-fleet.reporting.shared-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 17,
+          "accepted_lines": 17
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.protobuf-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.langInjection.backend-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 17,
+          "accepted_lines": 17
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-fleet.andel-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 20,
+          "accepted_lines": 20
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.coverage-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 36,
+          "accepted_lines": 36
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.welcomeScreen.impl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 20,
+          "accepted_lines": 20
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.commons.io-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-fleet.fastutil-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.rd.swing-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.java.compatibility-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.polySymbols-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 33,
+          "accepted_lines": 33
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.jackson.databind-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 14,
+          "accepted_lines": 14
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.xml.dom-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 26,
+          "accepted_lines": 26
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.projectModel.impl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 26,
+          "accepted_lines": 26
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.jewel.ideLafBridge-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 26,
+          "accepted_lines": 26
+        },
+        "CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/action/SearchInWebAction.kt": {
+          "additions": 1,
+          "deletions": 1,
+          "accepted_lines": 1
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.microba-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.vcs.dvcs.impl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 33,
+          "accepted_lines": 33
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.kernel.backend-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 18,
+          "accepted_lines": 18
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.properties.backend-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 18,
+          "accepted_lines": 18
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.gradle.java.groovy-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 26,
+          "accepted_lines": 26
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.editor.ex-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 25,
+          "accepted_lines": 25
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.kotlinx.serialization.core-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/device/DeviceManager.java": {
+          "additions": 2,
+          "deletions": 1,
+          "accepted_lines": 2
+        },
+        "CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/action/FindViewAction.kt": {
+          "additions": 1,
+          "deletions": 1,
+          "accepted_lines": 1
+        },
+        "CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/panels/ViewInfoTablePanel.kt": {
+          "additions": 1,
+          "deletions": 1,
+          "accepted_lines": 1
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.java.impl.refactorings-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 20,
+          "accepted_lines": 20
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.rd.text-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.gradle.java.properties-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 16,
+          "accepted_lines": 16
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.regexp-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 28,
+          "accepted_lines": 28
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-fleet.rhizomedb.transactor-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 24,
+          "accepted_lines": 24
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-fleet.util.core-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 21,
+          "accepted_lines": 21
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledPlugin-com.intellij.platform.images-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 14,
+          "accepted_lines": 14
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.uast.ide-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 16,
+          "accepted_lines": 16
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.xerces-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.java.debugger.memory.agent-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 13,
+          "accepted_lines": 13
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.structureView.backend-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 30,
+          "accepted_lines": 30
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.commons.lang3-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.commons.cli-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.xml.analysis-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 16,
+          "accepted_lines": 16
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.java.execution-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 16,
+          "accepted_lines": 16
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.jgoodies.common-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.usageView-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 27,
+          "accepted_lines": 27
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.scriptDebugger.backend-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 22,
+          "accepted_lines": 22
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.ide.concurrency-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 20,
+          "accepted_lines": 20
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.credentialStore-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 14,
+          "accepted_lines": 14
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.jps.build-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 19,
+          "accepted_lines": 19
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.vcs.git.backend-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 25,
+          "accepted_lines": 25
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledPlugin-com.intellij.gradle-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 25,
+          "accepted_lines": 25
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.ide-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 32,
+          "accepted_lines": 32
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.xml.psi.impl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 35,
+          "accepted_lines": 35
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.classgraph-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledPlugin-com.intellij.properties-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 17,
+          "accepted_lines": 17
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.pty4j-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.imgscalr-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-fleet.util.logging.api-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 13,
+          "accepted_lines": 13
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.xz-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.jackson3.module.kotlin-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 13,
+          "accepted_lines": 13
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-fleet.rpc-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 19,
+          "accepted_lines": 19
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledPlugin-intellij.webp-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 14,
+          "accepted_lines": 14
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.diff-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 21,
+          "accepted_lines": 21
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.util.ex-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 22,
+          "accepted_lines": 22
+        },
+        "CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/dialog/ShowIntentInfoDialog.kt": {
+          "additions": 1,
+          "deletions": 1,
+          "accepted_lines": 1
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.jps.build.dependencyGraph-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 14,
+          "accepted_lines": 14
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledPlugin-intellij.java.aetherDependencyResolver.plugin-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 31,
+          "accepted_lines": 31
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.jvm.analysis-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 17,
+          "accepted_lines": 17
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.ktor.client-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 15,
+          "accepted_lines": 15
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.configurationStore.impl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 37,
+          "accepted_lines": 37
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.lang.core-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 24,
+          "accepted_lines": 24
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.structureView-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 35,
+          "accepted_lines": 35
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledPlugin-org.intellij.groovy-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 37,
+          "accepted_lines": 37
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.jediterm.ui-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/ides/layoutIndex/AI-262.9437.185.2621.16467767-b776be1145d6.json": {
+          "additions": 1,
+          "accepted_lines": 1
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.editor.ui-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 18,
+          "accepted_lines": 18
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.structuralSearch-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 32,
+          "accepted_lines": 32
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.jewel.markdown.core-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 15,
+          "accepted_lines": 15
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.rpc.backend-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 15,
+          "accepted_lines": 15
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.ide.initialConfigImport-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 25,
+          "accepted_lines": 25
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.macro-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 22,
+          "accepted_lines": 22
+        },
+        "CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/action/FindTouchListenerAction.kt": {
+          "additions": 1,
+          "deletions": 1,
+          "accepted_lines": 1
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.automaton-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.jackson3.jr.objects-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.util.coroutines-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 14,
+          "accepted_lines": 14
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.jackson.module.kotlin-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 13,
+          "accepted_lines": 13
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.lvcs-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 13,
+          "accepted_lines": 13
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.java.codeserver.core-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 15,
+          "accepted_lines": 15
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.java.langInjection.jps-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 16,
+          "accepted_lines": 16
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.statistics.uploader-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 19,
+          "accepted_lines": 19
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.codeStyle-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 16,
+          "accepted_lines": 16
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.lang-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 29,
+          "accepted_lines": 29
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-fleet.bifurcan-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 16,
+          "accepted_lines": 16
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.debugger.impl.rpc-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 23,
+          "accepted_lines": 23
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.vcs.git.shared-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 14,
+          "accepted_lines": 14
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.kotlinx.io-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.java.debugger-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 16,
+          "accepted_lines": 16
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.builtInServer.impl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 40,
+          "accepted_lines": 40
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.netty.codec.http-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 13,
+          "accepted_lines": 13
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.runtime.product-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.icu4j-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.diagnostic.freezeAnalyzer-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 13,
+          "accepted_lines": 13
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.sqlite-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 13,
+          "accepted_lines": 13
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.commons.compress-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 13,
+          "accepted_lines": 13
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.hdr.histogram-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.java.debugger.impl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 31,
+          "accepted_lines": 31
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.swingx-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/action/NewWindowAction.kt": {
+          "additions": 1,
+          "deletions": 1,
+          "accepted_lines": 1
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-fleet.radixTrie-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 14,
+          "accepted_lines": 14
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.backend-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.java.uast.ide-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 16,
+          "accepted_lines": 16
+        },
+        "CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/dialog/EditFileContentDialog.kt": {
+          "additions": 2,
+          "deletions": 2,
+          "accepted_lines": 2
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.commons.codec-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.analysis.impl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 37,
+          "accepted_lines": 37
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.jewel.markdown.extensions.autolink-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 16,
+          "accepted_lines": 16
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.externalSystem.dependencyUpdater-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 18,
+          "accepted_lines": 18
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.java.indexing.impl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 16,
+          "accepted_lines": 16
+        },
+        "CodeLocatorPlugin/.intellijPlatform/sandbox/CodeLocatorPlugin/AI-AI-262.9437.185.2621.16467767/config/options/updates.xml": {
+          "additions": 5,
+          "accepted_lines": 5
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-fleet.util.codepoints-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.java.indexing-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 15,
+          "accepted_lines": 15
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.vcs.impl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 60,
+          "accepted_lines": 60
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.buildScripts.downloader-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 22,
+          "accepted_lines": 22
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.snakeyaml.engine-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.jgoodies.forms-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.jbr-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.debugger.impl.ui-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 45,
+          "accepted_lines": 45
+        },
+        "CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/utils/ImageUtils_副本.kt": {
+          "additions": 133
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.java.impl.inspections-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 22,
+          "accepted_lines": 22
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.hash4j-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.externalSystem-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 25,
+          "accepted_lines": 25
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.compose-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 24,
+          "accepted_lines": 24
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.caffeine-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.vcs.impl.shared-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 34,
+          "accepted_lines": 34
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.diff.impl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 35,
+          "accepted_lines": 35
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.ide.core-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 25,
+          "accepted_lines": 25
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.opentelemetry.extension.kotlin-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 13,
+          "accepted_lines": 13
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.execution-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 25,
+          "accepted_lines": 25
+        },
+        "CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/parser/CodeLocatorViewNodeDecoder.kt": {
+          "additions": 1,
+          "deletions": 1,
+          "accepted_lines": 1
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.jackson3-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 13,
+          "accepted_lines": 13
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.kernel-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 19,
+          "accepted_lines": 19
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.ide.impl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 94,
+          "accepted_lines": 94
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.java.execution.impl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 27,
+          "accepted_lines": 27
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.util.ui-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 26,
+          "accepted_lines": 26
+        },
+        "CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/dialog/ShowViewClassInfoDialog.kt": {
+          "additions": 1,
+          "deletions": 1,
+          "accepted_lines": 1
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.markdown-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.aalto.xml-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.projectFrame-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 17,
+          "accepted_lines": 17
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-fleet.openmap-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 16,
+          "accepted_lines": 16
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.threadDumpParser-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 17,
+          "accepted_lines": 17
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.xml.structureView-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 16,
+          "accepted_lines": 16
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.guava-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.kotlin.reflect-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.ktor.utils-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 13,
+          "accepted_lines": 13
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.jsoup-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.oro.matcher-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.rd.community-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 20,
+          "accepted_lines": 20
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.smRunner-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 30,
+          "accepted_lines": 30
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.kotlinx.html-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledPlugin-org.jetbrains.kotlin-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 45,
+          "accepted_lines": 45
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledPlugin-org.jetbrains.plugins.gradle-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 22,
+          "accepted_lines": 22
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.kotlinx.datetime-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.xml.impl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 46,
+          "accepted_lines": 46
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.java.impl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 33,
+          "accepted_lines": 33
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.java.analysis.impl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 20,
+          "accepted_lines": 20
+        },
+        "CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/listener/CodeLocatorStartupActivity.java": {
+          "additions": 1,
+          "deletions": 1,
+          "accepted_lines": 1
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.statistics.config-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 19,
+          "accepted_lines": 19
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.java.compiler-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 16,
+          "accepted_lines": 16
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.welcomeScreen-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 16,
+          "accepted_lines": 16
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.eel.impl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 19,
+          "accepted_lines": 19
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.spellchecker-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 35,
+          "accepted_lines": 35
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.blockmap-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.ide.core.plugins-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 15,
+          "accepted_lines": 15
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.locking.impl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 15,
+          "accepted_lines": 15
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.netty.buffer-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.vcs.log-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 20,
+          "accepted_lines": 20
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.testRunner-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 32,
+          "accepted_lines": 32
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.commons.imaging-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.jediterm.core-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.mvstore-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.java-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 18,
+          "accepted_lines": 18
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.http.client-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/build.gradle.kts": {
+          "additions": 75,
+          "deletions": 93,
+          "accepted_lines": 61
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.jewel.foundation-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 16,
+          "accepted_lines": 16
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.vcs.log.graph-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.vcs.core-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 18,
+          "accepted_lines": 18
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledPlugin-org.jetbrains.android-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 210,
+          "accepted_lines": 210
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.grpc-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.usageView.impl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 34,
+          "accepted_lines": 34
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledPlugin-com.intellij.java-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 91,
+          "accepted_lines": 91
+        },
+        "CodeLocatorPlugin/gradle.properties": {
+          "additions": 4,
+          "deletions": 1,
+          "accepted_lines": 4
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.uast-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 15,
+          "accepted_lines": 15
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.eel.nioFs.impl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 16,
+          "accepted_lines": 16
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.compose.foundation.desktop-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 14,
+          "accepted_lines": 14
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledPlugin-com.intellij.modules.json-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 18,
+          "accepted_lines": 18
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.jsp.spi-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 16,
+          "accepted_lines": 16
+        },
+        "CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/action/InstallApkAction.kt": {
+          "additions": 1,
+          "deletions": 1,
+          "accepted_lines": 1
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.vcs.log.impl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 44,
+          "accepted_lines": 44
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.winp-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.skiko-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.externalSystem.impl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 44,
+          "accepted_lines": 44
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.rpc.topics-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 18,
+          "accepted_lines": 18
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.jewel.markdown.extensions.gfmTables-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 16,
+          "accepted_lines": 16
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.bouncy.castle.provider-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.grpc.netty.shaded-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 13,
+          "accepted_lines": 13
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.jsvg-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.jackson.jr.objects-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledPlugin-com.android.tools.gradle.dsl-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 19,
+          "accepted_lines": 19
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledPlugin-com.android.tools.idea.smali-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 13,
+          "accepted_lines": 13
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.java.codeserver.highlighting-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 16,
+          "accepted_lines": 16
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.java.manifest-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 16,
+          "accepted_lines": 16
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.jewel.markdown.extensions.gfmAlerts-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 16,
+          "accepted_lines": 16
+        },
+        "CodeLocatorPlugin/settings.gradle.kts": {
+          "additions": 1,
+          "deletions": 1,
+          "accepted_lines": 1
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.vcs.dvcs-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 20,
+          "accepted_lines": 20
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.java.analysis-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 16,
+          "accepted_lines": 16
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.platform.rpc-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 15,
+          "accepted_lines": 15
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.xml.emmet-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 15,
+          "accepted_lines": 15
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.teamcity.service.messages-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-fleet.rhizomedb-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 20,
+          "accepted_lines": 20
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.jvm.analysis.refactoring-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 16,
+          "accepted_lines": 16
+        },
+        "CodeLocatorPlugin/src/main/java/com/bytedance/tools/codelocator/action/FindClickListenerAction.kt": {
+          "additions": 1,
+          "deletions": 1,
+          "accepted_lines": 1
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.jvm.native.trusted.roots-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.xml.psi-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 18,
+          "accepted_lines": 18
+        },
+        "CodeLocatorPlugin/.intellijPlatform/localPlatformArtifacts/AI-262.9437.185.2621.16467767/bundledModule-intellij.libraries.miglayout.swing-AI-262.9437.185.2621.16467767.xml": {
+          "additions": 11,
+          "accepted_lines": 11
+        }
+      }
+    }
+  }
+}

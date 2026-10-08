@@ -13,6 +13,9 @@ import java.io.*;
 
 public class AutoUpdateUtils {
 
+    // 262 适配版：官方构建在 AS 2026.2 上跑不起来（缺 EditorEventMulticaster 等方法），自更新会把适配版换掉
+    private static final boolean ENABLE_SELF_UPDATE = false;
+
     private static long sLastCheckUpdateTime = 0;
 
     private static String sCurrentPluginVersion;
@@ -117,6 +120,10 @@ public class AutoUpdateUtils {
     public static void checkForUpdate(CodeLocatorWindow codeLocatorWindow) {
         NetUtils.fetchConfig();
         sLastCheckUpdateTime = System.currentTimeMillis();
+        if (!ENABLE_SELF_UPDATE) {
+            Log.d("Self-update disabled in this AS 2026.2 build, skip");
+            return;
+        }
         NetUtils.checkForUpdate(new Callback() {
             @Override
             public void onFailure(Call call, IOException e) {

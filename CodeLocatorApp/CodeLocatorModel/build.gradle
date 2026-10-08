@@ -1,7 +1,8 @@
 apply plugin: 'java-library'
 
-if (getProperties("customUploadGradlePluginUrl") != null) {
-    apply from: getProperties("customUploadGradlePluginUrl")
+// Gradle 9 移除了 Project.getProperties(String)，改为标准的 hasProperty/property（Gradle 7 同样支持）
+if (project.hasProperty("customUploadGradlePluginUrl")) {
+    apply from: project.property("customUploadGradlePluginUrl")
 }
 
 dependencies {
@@ -9,7 +10,10 @@ dependencies {
     api "com.google.code.gson:gson:2.8.5"
 }
 
-sourceCompatibility = "1.8"
-targetCompatibility = "1.8"
+// Gradle 9 移除了 project.sourceCompatibility 这种老式赋值，改用 java {} 块（Gradle 7 同样支持）
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
 
 //apply plugin: "com.vanniktech.maven.publish"

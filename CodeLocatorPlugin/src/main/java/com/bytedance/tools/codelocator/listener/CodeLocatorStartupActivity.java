@@ -207,7 +207,7 @@ public class CodeLocatorStartupActivity implements StartupActivity {
             model.copyToProject(newCodeStyleName);
             CodeStyleSettingsManager.getInstance(project).USE_PER_PROJECT_SETTINGS = false;
             CodeStyleSettingsManager.getInstance(project).PREFERRED_PROJECT_CODE_STYLE = newCodeStyleName.getName();
-            CodeStyleSettingsManager.getInstance(project).fireCodeStyleSettingsChanged(null);
+            CodeStyleSettingsManager.getInstance(project).fireCodeStyleSettingsChanged();
             CodeStyleSchemesImpl.getInstance().setCurrentScheme(newCodeStyleName);
             project.save();
             Mob.mob(Mob.Action.EXEC, "setCodeStyle project: " + project.getName() + ", codeStyle: " + codeStyleName);

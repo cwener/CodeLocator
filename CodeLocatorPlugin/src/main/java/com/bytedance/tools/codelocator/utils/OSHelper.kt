@@ -22,7 +22,7 @@ abstract class OSHelper {
 
     companion object {
 
-        private val sIsWindows = System.getProperty("os.name").toLowerCase().indexOf("windows") > -1
+        private val sIsWindows = System.getProperty("os.name").lowercase().indexOf("windows") > -1
 
         @JvmStatic
         val instance: OSHelper = if (sIsWindows) WindowsHelper() else MacHelper()
@@ -64,12 +64,7 @@ abstract class OSHelper {
     abstract fun execCommand(vararg command: String): ExecResult
 
     open fun getAndroidSdkFile(): File? {
-        try {
-            val androidSdkData = AndroidSdks.getInstance().androidSdkPathsFromExistingPlatforms
-            return androidSdkData.elementAtOrNull(0)
-        } catch (t: Throwable) {
-            Log.d("androidSdkPathsFromExistingPlatforms failed", t)
-        }
+        // 262 起 AndroidSdks.getAndroidSdkPathsFromExistingPlatforms() 已删，统一走 tryToChooseAndroidSdk
         try {
             val androidSdkData = AndroidSdks.getInstance().tryToChooseAndroidSdk() ?: return null
             val getLocationMethod = ReflectUtils.getClassMethod(androidSdkData.javaClass, "getLocation")

@@ -29,3 +29,6 @@ build/
 
 /repo/**/
 local.properties
+
+# IntelliJ Platform Gradle Plugin 2.x 的本地产物
+.intellijPlatform/

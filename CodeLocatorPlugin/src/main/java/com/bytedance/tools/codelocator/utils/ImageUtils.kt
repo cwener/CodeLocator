@@ -37,10 +37,9 @@ object ImageUtils {
         if (!iconFileName.endsWith("png") && !iconFileName.endsWith("svg")) {
             loadImageFileName = "$loadImageFileName.svg"
         }
-        var findIcon = IconLoader.findIcon(path + loadImageFileName)
-        if (imageSize != null && findIcon is IconLoader.CachedImageIcon && findIcon.iconWidth != imageSize) {
-            findIcon = findIcon.scale(imageSize * 1.0f / findIcon.iconWidth)
-        } else if (imageSize != null && findIcon != null && findIcon is ScalableIcon && findIcon.iconWidth != imageSize) {
+        // 262 起 1 参 findIcon 与 CachedImageIcon 均已废弃，缩放统一走 ScalableIcon + 下面的反射兜底
+        var findIcon = IconLoader.findIcon(path + loadImageFileName, ImageUtils::class.java.classLoader)
+        if (imageSize != null && findIcon is ScalableIcon && findIcon.iconWidth != imageSize) {
             findIcon = findIcon.scale(imageSize * 1.0f / findIcon.iconWidth)
         }
         if (imageSize != null && findIcon?.javaClass?.name == "com.intellij.openapi.util.CachedImageIcon" && findIcon.iconWidth != imageSize) {

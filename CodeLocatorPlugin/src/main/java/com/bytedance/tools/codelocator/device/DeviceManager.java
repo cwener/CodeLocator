@@ -346,7 +346,8 @@ public class DeviceManager {
             //    ViewUtils.fillViewInfo(wApplication.getActivity().getDecorViews().get(0), tmpView);
             //}
         } else {
-            wApplication = DataUtils.buildApplicationForNoSDKDebug(project, pkgName, activityName, client);
+            // 262 起 com.android.layoutinspector.* 被 AS 重构掉，debug 包抓 view 树暂不可用，降级为 dumpsys
+            wApplication = DataUtils.buildApplicationForNoSDKRelease(project, pkgName, activityName);
         }
         if (wApplication != null) {
             wApplication.setDensity(currentDevice.getDensity());

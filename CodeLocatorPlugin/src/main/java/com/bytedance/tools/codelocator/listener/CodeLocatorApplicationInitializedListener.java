@@ -15,11 +15,12 @@ import com.bytedance.tools.codelocator.utils.ThreadUtils;
 import com.google.gson.reflect.TypeToken;
 import com.intellij.codeInsight.hint.HintManager;
 import com.intellij.codeInsight.hint.HintManagerImpl;
-import com.intellij.ide.ApplicationInitializedListener;
+import com.intellij.ide.ApplicationInitializedListenerJavaShim;
 import com.intellij.openapi.editor.Editor;
 import com.intellij.openapi.editor.EditorFactory;
 import com.intellij.openapi.editor.event.SelectionEvent;
 import com.intellij.openapi.editor.event.SelectionListener;
+import com.intellij.openapi.util.Disposer;
 import com.intellij.openapi.util.TextRange;
 import com.intellij.ui.LightweightHint;
 import com.intellij.ui.awt.RelativePoint;
@@ -33,7 +34,9 @@ import java.util.Comparator;
 import java.util.HashSet;
 import java.util.List;
 
-public class CodeLocatorApplicationInitializedListener implements ApplicationInitializedListener {
+// 262 平台对实现旧 componentsInitialized() 钩子的插件会 Logger.error 一条 "Override `execute`" 诊断，
+// 继承 JavaShim 是平台给 Java 插件的迁移路径，可避免该诊断
+public class CodeLocatorApplicationInitializedListener extends ApplicationInitializedListenerJavaShim {
 
     public static final int HINT_ITEM_HEIGHT = 24;
 
@@ -129,7 +132,8 @@ public class CodeLocatorApplicationInitializedListener implements ApplicationIni
                             HintManager.HIDE_BY_ANY_KEY | HintManager.HIDE_BY_TEXT_CHANGE | HintManager.HIDE_BY_OTHER_HINT | HintManager.HIDE_BY_SCROLLING, 0);
                     Mob.mob(Mob.Action.CLICK, Mob.Button.COLOR_MODE);
                 }
-            });
+                // 262 起只剩两参重载；监听器与 IDE 同生命周期，故给一个不释放的 Disposable
+            }, Disposer.newDisposable("CodeLocator.colorPreview"));
         }
     }
 
